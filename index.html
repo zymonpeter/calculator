@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZEYPIS's CALCULATOR</title>
+    <style>
+       body{
+        background-image: url(photo4.jpg);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+       }
+    
+        table{
+            border: 5px solid rgb(81, 87, 80);
+            margin-left: auto;
+            margin-right: auto;
+            background-color: rgb(112, 180, 116);
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        input[type="button"] {
+            width: 100%;
+            padding: 20px 40px;
+            background-color: beige;
+            color: black;
+            font-size: 24px;
+            font-weight: bold;
+            border: 2px solid rgb(99, 102, 100);
+            border-radius: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+        input[type="text"] {
+            padding: 30px 40px;
+            font-size: 25px;
+            font-weight: bold;
+            border: 5px solid rgb(55, 87, 65);
+            border-radius: 10px;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <tr> <!--ROW 1-->
+            <td colspan="3">
+                <input type="text" id="result">
+            </td>
+            <td><input class="onclick" type="button" value="C"></td>
+        </tr>
+
+        <tr> <!-- ROW 2-->
+            <td><input class="onclick" type="button" value="1"></td>
+            <td><input class="onclick" type="button" value="2"></td>
+            <td><input class="onclick" type="button" value="3"></td>
+            <td><input class="onclick" type="button" value="/"></td>
+        </tr>
+
+        <tr> <!-- ROW 3-->
+            <td><input class="onclick" type="button" value="4"></td>
+            <td><input class="onclick" type="button" value="5"></td>
+            <td><input class="onclick" type="button" value="6"></td>
+            <td><input class="onclick" type="button" value="*"></td>
+        </tr>
+
+        <tr> <!-- ROW 4-->
+            <td><input class="onclick" type="button" value="7"></td>
+            <td><input class="onclick" type="button" value="8"></td>
+            <td><input class="onclick" type="button" value="9"></td>
+            <td><input class="onclick" type="button" value="-"></td>
+        </tr>
+
+        <tr> <!-- ROW 5-->
+            <td><input class="onclick" type="button" value="."></td>
+            <td><input class="onclick" type="button" value="0"></td>
+            <td><input class="onclick" type="button" value="="></td>
+            <td><input class="onclick" type="button" value="+"></td>
+        </tr>
+
+    </table>
+    
+</body>
+</html>
